@@ -5,7 +5,7 @@ CHCP 1251
 REM Установка переменных окружения
 SET PGBIN=C:\Program Files\PostgreSQL\11\bin
 SET PGDATABASE=acme
-SET PGHOST=rusfraudvi.rus.sas.com
+SET PGHOST=server
 SET PGPORT=1111
 SET PGUSER=user
 SET PGPASSWORD=password
