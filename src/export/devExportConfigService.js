@@ -3,9 +3,9 @@ const fs = require('fs');
 
 // to edit
 const
-    server = "banff.ruspfraudvi.rus.sas.com",
-    user = "user1",
-    pass = "Go4thsas";
+    server = 'server',
+    user = 'user',
+    pass = 'pass';
 
 function exportConfiguration() {
     // авторизация на сервере

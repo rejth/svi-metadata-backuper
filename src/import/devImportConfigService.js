@@ -3,13 +3,13 @@ const fs = require('fs');
 
 // to edit
 const
-    server = 'pdcesx15064.exnet.sas.com',
-    user = 'videmo',
-    pass = 'Orion123';
+    server = 'server',
+    user = 'user',
+    pass = 'pass';
 
 function importConfiguration() {
     // to edit
-    let data = fs.readFileSync(`C:/Users/rusiki/OneDrive - SAS/Documents/work/js projects/intech-svi-configuration-12.07.19.zip`)
+    let data = fs.readFileSync(`path/to/zip-archive`)
     // авторизация на сервере
     fetch(`http://${server}/SASLogon/oauth/token?grant_type=password&username=${user}&password=${pass}`, {
         method: 'post',

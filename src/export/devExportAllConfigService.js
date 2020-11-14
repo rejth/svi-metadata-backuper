@@ -33,8 +33,8 @@ const
         'corby.rusfraudvi.rus.sas.com'
 
     ],
-    user = 'user1',
-    pass = 'Go4thsas';
+    user = 'user',
+    pass = 'pass';
 
 function exportConfiguration() {
     // делаем экспорт конфигурации для каждого тенанта на сервере rusfraudvi.rus.sas.com

@@ -1,4 +1,4 @@
-REM Создание резервных копий всех баз данных сервера rusfraudvi.rus.sas.com. Схемы fdhdata и public wzn5XiKxaHnLM2iMczbGtzcCwHmvgx9
+REM Создание резервных копий всех баз данных сервера rusfraudvi.rus.sas.com. Схемы fdhdata и public
 CLS
 ECHO OFF
 CHCP 1251
@@ -6,9 +6,9 @@ REM Установка переменных окружения
 SET PGBIN=C:\Program Files\PostgreSQL\11\bin
 SET PGDATABASE=acme
 SET PGHOST=rusfraudvi.rus.sas.com
-SET PGPORT=5432
-SET PGUSER=dbmsowner
-SET PGPASSWORD=MXkyQzd2kFlGgbgTBjVwlC0Vm7eM2gC
+SET PGPORT=1111
+SET PGUSER=user
+SET PGPASSWORD=password
 SET FDHPATH=C:\myfiles\backup_databases\%PGDATABASE%\fdhdata\
 SET PBLPATH=C:\myfiles\backup_databases\%PGDATABASE%\public\
 SET AIUPATH=C:\myfiles\backup_databases\%PGDATABASE%\aiuserdata\

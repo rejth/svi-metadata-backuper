@@ -1,0 +1,23 @@
+{
+  "name": "svi-metadata-backuper",
+  "version": "1.0.0",
+  "description": "SAS Visual Investigator metadata backuper",
+  "main": "devExportAllConfigService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rejth/svi-metadata-backuper.git"
+  },
+  "author": "Ilia Kirsanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rejth/svi-metadata-backuper/issues"
+  },
+  "homepage": "https://github.com/rejth/svi-metadata-backuper#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
